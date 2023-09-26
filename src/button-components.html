@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100x App</title>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body class="bg-neutral-1000">
+    <nav class="flex w-full h-10 bg-slate-600 justify-center items-center text-white space-x-10 font-inter font-bold">
+        <a href="./button-components.html">Buttons</a>
+        <a href="./inputs-components.html">Inputs</a>
+        <a href="./card-component.html">Cards</a>
+        <a href="./Tweet-component.html">Tweet</a>
+    </nav>
+    <section id="White-Buttons" class="w-full h-[15.6rem]">
+            <!-- Default Button Component -->
+        <section class="flex flex-row m-6 space-x-8">
+            <button class="flex w-5.5 bg-neutral-50 py-2 px-6 justify-center items-center gap-2.5 rounded-rounded-xl shadow-3xl backdrop-blur-c-xl hover:bg-neutral-200 disabled:opacity-50">
+                <div class="font-inter font-bold text-base not-italic leading-normal text-neutral-1000 text-center">
+                    Create account
+                </div>
+            </button>
+            <button class="inline-flex bg-neutral-50 py-2 px-5 justify-center items-center gap-2.5 rounded-rounded-xs hover:bg-neutral-200 disabled:opacity-50">
+                <div class="font-inter font-bold text-sm leading-normal not-italic text-center text-neutral-1000">
+                    Follow
+                </div>
+            </button>
+            <button class="flex w-6.5 bg-neutral-50 py-3 px-6 justify-center items-center gap-2.5 rounded-rounded-xl shadow-3xl backdrop-blur-c-xl hover:bg-neutral-200 disabled:opacity-50" disabled>
+                <div class="font-inter font-bold text-base leading-normal not-italic text-center text-neutral-1000">
+                    Next
+                </div>
+            </button>
+
+        </section>
+        
+        <!-- outline button -->
+        <section class="flex flex-row m-6 space-x-8">
+            <button class="flex w-5.5  py-2 px-6 justify-center items-center gap-2.5 rounded-rounded-xl shadow-3xl backdrop-blur-c-xl border-solid border-1 border-stroke">
+                <div class="font-inter font-bold text-base leading-normal not-italic text-twitter-blue text-center">
+                    Sign Up
+                </div>
+            </button>
+            <button class="flex py-2 px-4 justify-center items-center gap-2.5 rounded-rounded-xl shadow-3xl backdrop-blur-c-xl border-solid border-1 border-stroke">
+                <div class="font-inter font-bold text-base leading-normal not-italic text-twitter-blue text-center">
+                    Following
+                </div>
+            </button>
+        </section>
+    </section>
+    <!-- blue buttons -->
+    <section id="blue-buttons" class="m-6 mt-16 w-auto h-auto flex flex-row space-x-8">
+        <!-- default buttons -->
+            <button class="inline-flex justify-center items-center gap-2.5 px-24 py-4 rounded-full bg-twitter-blue hover:bg-twitter-blue-hover disabled:bg-twitter-blue-disabled">
+                <div class="font-inter font-bold text-base leading-normal text-neutral-50 text-center">
+                    Post
+                </div>
+            </button>
+
+            <button class="inline-flex justify-center items-center gap-2.5 px-6 py-3 rounded-rounded-xs bg-twitter-blue font-bold leading-normal hover:bg-twitter-blue-hover disabled:bg-twitter-blue-disabled">
+                <div class="font-inter font-bold text-base leading-normal text-neutral-50 text-center w-14">
+                    Post 
+                </div>
+            </button>
+            <button class="flex justify-center items-center gap-2.5 p-5 w-6.5 rounded-full bg-twitter-blue hover:bg-twitter-blue-hover disabled:bg-twitter-blue-disabled">
+                <div class="font-inter font-bold text-base leading-normal text-neutral-50 text-center">
+                    Post
+                </div>
+            </button>
+    </section>
+    <!-- Banner Section -->
+    <section id="Banner-tab" class="m-6 mt-16 w-[64.6rem] h-[15.6rem]">
+        <div class="flex w-37.5 h-3.6 pt-5 px-24 justify-center items-center gap-40 flex-shrink-0 border-b-1 border-solid border-neutral-700">
+                <button class="flex flex-col justify-center items-center gap-4 focus:border-twitter-blue group focus:border-b-4">
+                    <div class="font-inter font-bold text-base leading-normal text-neutral-50 text-center group-focus:text-neutral-400">
+                        For you
+                    </div>
+                </button>
+                <button class="flex flex-col justify-center items-center gap-3 focus:border-twitter-blue group focus:border-b-4">
+                    <div class="font-inter font-bold text-base leading-normal text-neutral-50 text-center group-focus:text-neutral-400">
+                        Following
+                    </div>
+                </button>
+            
+        </div>
+
+    </section>
+    <!-- Home/User Section -->
+
+    <section id="Home/User-tab" class="flex m-6 mt-16">
+        <div class="flex flex-col border-2 justify-center items-center border-solid border-div-purple p-5 space-y-5 group/item">
+            <button class="w-6 h-6 flex-shrink-0 focus:bg-[url('../public/images/Home-selected.svg')]">
+                <img src="../public/images/Home.svg" alt="home">
+            </button>
+            <button class="w-6 h-6 flex-shrink-0 focus-within:bg-[url('../public/images/Group-selected.svg')]">
+                <img src="../public/images/Group.svg" alt="selected">
+            </button>
+        </div>
+    </section>
+</body>
+</html>
