@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./src/*.{html,js}",
+    "./src/components/*.{html,js}",
+    "./src/screens/*.{html,js}"
+  ],
   theme: {
     extend: {
       colors: {
@@ -8,6 +12,7 @@ module.exports = {
         "twitter-blue": "#1D9BF0",
         "twitter-blue-hover": "#1871CA",
         "twitter-blue-disabled": "#1E5D87",
+        "secondary": "rgba(255, 255, 255, 0.60)",
         "blue-wash": "#75BEEF33",
         "stroke": "rgba(29, 155, 240, 0.24)",
         "searchbar-fill": "#212327",

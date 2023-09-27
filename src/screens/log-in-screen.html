@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Screen</title>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="../../dist/output.css">
+</head>
+<body class="bg-neutral-1000 w-screen flex justify-center items-start h-screen gap-3 flex-col">
+    <div class="flex w-full h-full px-4 pb-5 flex-col items-start gap-3 flex-shrink-0">
+        <div class="flex py-3 items-center gap-5 self-stretch">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M18 6L6 18" stroke="#F9F9F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6 6L18 18" stroke="#F9F9F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="w-full flex flex-row text-neutral-50 font-inter font-bold text-sm">
+                Step 1 of 4
+            </span>
+        </div>
+        <div class="flex flex-col items-start gap-5 self-stretch">
+            <div class="w-full flex flex-row text-neutral-50 font-inter font-bold text-2xl">
+                Create your account
+            </div>
+            <div class="flex flex-col items-center self-stretch gap-8">
+                <fieldset class="flex w-full py-4 px-3 gap-0.6 rounded border-1 border-solid group/item border-neutral-500 focus-within:border-twitter-blue">
+                    <legend class="font-inter font-normal text-xs leading-normal text-neutral-500 group-focus-within/item:text-twitter-blue">
+                        <div class="inline-flex px-1 justify-center items-center gap-0.6 ">
+                            Name
+                        </div>
+                    </legend>
+                    <div class="w-full flex flex-row text-neutral-50 font-inter font-normal text-xl">
+                        <input type="text" id="Name" placeholder="label" class="bg-transparent w-full focus:outline-none placeholder:text-neutral-500">
+                        <div class="group/edit invisible group-focus-within/item:visible">
+                            <img src="../../public/images/valid-tick.svg" alt="">
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="flex w-full py-4 px-3 gap-0.6 rounded border-1 border-solid group/item border-neutral-500 focus-within:border-twitter-blue">
+                    <legend class="font-inter font-normal text-xs leading-normal text-neutral-500 group-focus-within/item:text-twitter-blue">
+                        <div class="inline-flex px-1 justify-center items-center gap-0.6 ">
+                            Email
+                        </div>
+                    </legend>
+                    <div class="w-full flex flex-row text-neutral-50 font-inter font-normal text-xl">
+                        <input type="text" id="Email" placeholder="label" class="bg-transparent w-full focus:outline-none placeholder:text-neutral-500">
+                        <div class="group/edit invisible group-focus-within/item:visible">
+                            <img src="../../public/images/valid-tick.svg" alt="">
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="flex flex-col items-start gap-2 self-stretch">
+                    <span class="w-full flex flex-row text-neutral-50 font-inter font-bold text-base">
+                        Date of birth
+                    </span>
+                    <span class="w-full flex flex-row text-secondary font-inter font-normal text-sm">
+                        This will not be shown publicly. Confirm your own age, even if this account is for a business, a pet, or something else.
+                    </span>
+                    <fieldset class="flex w-full py-4 px-3 gap-0.6 rounded border-1 border-solid group/item border-neutral-500 focus-within:border-twitter-blue">
+                        <legend class="font-inter font-normal text-xs leading-normal text-neutral-500 group-focus-within/item:text-twitter-blue">
+                            <div class="inline-flex px-1 justify-center items-center gap-0.6 ">
+                                Email
+                            </div>
+                        </legend>
+                        <div class="w-full flex flex-row text-neutral-50 font-inter font-normal text-xl">
+                            <input type="text" id="Email" placeholder="label" class="bg-transparent w-full focus:outline-none placeholder:text-neutral-500">
+                            <div class="group/edit invisible group-focus-within/item:visible">
+                                <img src="../../public/images/valid-tick.svg" alt="">
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+        <div class="flex pt-20 px-5 flex-col justify-end items-center gap-2 flex-1 self-stretch">
+            <button class="flex w-5.5 bg-neutral-50 py-2 px-6 justify-center items-center gap-2.5 rounded-rounded-xl shadow-3xl backdrop-blur-c-xl hover:bg-neutral-200 disabled:opacity-50" disabled>
+                <div class="font-inter font-bold text-base not-italic leading-normal text-neutral-1000 text-center">
+                    Create account
+                </div>
+            </button>
+        </div>
+    </div>
+    
+</body>

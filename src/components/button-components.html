@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>100x App</title>
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="../../dist/output.css">
+    <style>
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+        @tailwind variants;
+    </style>
 </head>
 <body class="bg-neutral-1000">
     <nav class="flex w-full h-10 bg-slate-600 justify-center items-center text-white space-x-10 font-inter font-bold">
@@ -91,10 +97,10 @@
     <section id="Home/User-tab" class="flex m-6 mt-16">
         <div class="flex flex-col border-2 justify-center items-center border-solid border-div-purple p-5 space-y-5 group/item">
             <button class="w-6 h-6 flex-shrink-0 focus:bg-[url('../public/images/Home-selected.svg')]">
-                <img src="../public/images/Home.svg" alt="home">
+                <img src="../../public/images/Home.svg" alt="home">
             </button>
             <button class="w-6 h-6 flex-shrink-0 focus-within:bg-[url('../public/images/Group-selected.svg')]">
-                <img src="../public/images/Group.svg" alt="selected">
+                <img src="../../public/images/Group.svg" alt="selected">
             </button>
         </div>
     </section>
