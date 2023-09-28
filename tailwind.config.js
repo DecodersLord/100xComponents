@@ -3,7 +3,9 @@ module.exports = {
   content: [
     "./src/*.{html,js}",
     "./src/components/*.{html,js}",
-    "./src/screens/*.{html,js}"
+    "./src/screens/*.{html,js}",
+    "./src/screens/log-in/*.{html,js}",
+    "./src/screens/Home-Feed/*.{html,js}"
   ],
   theme: {
     extend: {
@@ -40,13 +42,14 @@ module.exports = {
         "485": "485px",
         "37.5": "37.5rem",
         "512": "512px",
-        "600": "600px"
+        "375": "375px",
       },
       height: {
         "19": "19px",
         "2.43": "2.4375rem",
         "3.6": "3.75rem",
-        "360": "360px"
+        "360": "360px",
+        "667": "667px"
       },
       borderRadius: {
         'rounded-xl': "65px",
