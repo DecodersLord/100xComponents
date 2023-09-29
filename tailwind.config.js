@@ -5,7 +5,8 @@ module.exports = {
     "./src/components/*.{html,js}",
     "./src/screens/*.{html,js}",
     "./src/screens/log-in/*.{html,js}",
-    "./src/screens/Home-Feed/*.{html,js}"
+    "./src/screens/Home-Feed/*.{html,js}",
+    "./src/screens/Tweet-Post/*.{html,js}"
   ],
   theme: {
     extend: {
@@ -83,6 +84,10 @@ module.exports = {
       },
       gap: {
         "0.6": "0.625rem"
+      },
+      backgroundImage: {
+        "home-selected": "url('~/../../public/images/Home-selected.svg')",
+        "user-selected": "url('~/../../public/images/Group-selected.svg')"
       }
     },
   },

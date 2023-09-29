@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Tweet</title>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="../../../dist/output.css">
+</head>
+<body>
+    <div class="bg-slate-800 w-screen flex justify-center items-center h-screen gap-3 flex-col md:backdrop-blur-md">
+        <div class="bg-neutral-1000 flex w-full h-full px-4 py-3 flex-col flex-end gap-3 flex-shrink-0 md:w-375 md:h-667 md:rounded-xl">
+            
+                <div class="flex items-center justify-between w-full py-3 px-4 bg-neutral-1000">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M18 6L6 18" stroke="#F9F9F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6 6L18 18" stroke="#F9F9F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <button class="inline-flex justify-center items-center gap-2.5 px-6 py-3 rounded-rounded-xs bg-twitter-blue font-bold leading-normal hover:bg-twitter-blue-hover disabled:bg-twitter-blue-disabled">
+                            <div class="font-inter font-normal text-sm leading-normal text-neutral-50 text-center w-14">
+                                Post 
+                            </div>
+                        </button>
+                    
+                </div>
+                <div class="flex items-center justify-between w-full py-3 px-4 gap-1 bg-neutral-1000">
+                    <img src="../../../public/images/User avatar.png" alt="" class="w-9 h-9 flex-shrink-0 rounded-rounded-12.5 bg-cover bg-no-repeat">
+                    <div class="w-full flex flex-row text-neutral-50 font-inter font-normal text-xl">
+                        <input type="text" placeholder="What's happening?" class="flex items-center flex-shrink-0 self-stretch bg-transparent focus:outline-none focus:caret-twitter-blue">
+                        
+                    </div>
+                </div>
+                <div class="flex fixed inset-x-0 bottom-0  h-auto w-full py-3 px-4 bg-neutral-1000 border-t-1">
+                    <div class="font-inter font-normal text-sm leading-normal text-neutral-500 text-center">
+                        0/255
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
