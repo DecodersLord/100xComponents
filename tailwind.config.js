@@ -6,7 +6,8 @@ module.exports = {
     "./src/screens/*.{html,js}",
     "./src/screens/log-in/*.{html,js}",
     "./src/screens/Home-Feed/*.{html,js}",
-    "./src/screens/Tweet-Post/*.{html,js}"
+    "./src/screens/Tweet-Post/*.{html,js}",
+    "./src/screens/Profile/*.{html,js}"
   ],
   theme: {
     extend: {
@@ -87,7 +88,8 @@ module.exports = {
       },
       backgroundImage: {
         "home-selected": "url('~/../../public/images/Home-selected.svg')",
-        "user-selected": "url('~/../../public/images/Group-selected.svg')"
+        "user-selected": "url('~/../../public/images/Group-selected.svg')",
+        "banner": "url('~/../../public/images/banner.jpg')"
       }
     },
   },
